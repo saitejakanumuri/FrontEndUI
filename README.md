@@ -1,9 +1,11 @@
 # React + Vite
-Designed a frontend UI for the spice price prediction project.
-1. The result output video is present in ./src/assets/spicepriceprediction.mkv
-2. Used TailwindCSS and minor JS events functionalities like onclick, onchange, onsubmit, eventlistener ...
-Learnings:
-I lightly experienced the concept of useState,useEffect in this project for state transfer and effect on any state update.
+<h3>Designed a frontend UI for the spice price prediction project.</h3>
+<ol>
+<li> The result output video is present in ./src/assets/spicepriceprediction.mkv</li>
+<li> Used TailwindCSS and minor JS events functionalities like onclick, onchange, onsubmit, eventlistener ...</li>
+</ol>
+<h3><b>Learned:</b></h3>
+<h4>I lightly experienced the concept of useState,useEffect in this project for state transfer and effect on any state update.</h4>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
