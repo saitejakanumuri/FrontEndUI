@@ -7,6 +7,11 @@
 <h3><b>Learned:</b></h3>
 <h4>I lightly experienced the concept of useState,useEffect in this project for state transfer and effect on any state update.</h4>
 
+Steps: 
+1. install node if isn't present
+2. migrate to project folder
+3. npm i to install dependencies in project
+4. npm run dev to start the local server.
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
