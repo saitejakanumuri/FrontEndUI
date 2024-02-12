@@ -5,7 +5,7 @@
 <li> Used TailwindCSS and minor JS events functionalities like onclick, onchange, onsubmit, eventlistener ...</li>
 </ol>
 <h3><b>Learned:</b></h3>
-<h4>I lightly experienced the concept of useState,useEffect in this project for state transfer and effect on any state update.</h4>
+<h4>I lightly experienced the concept of useState,useEffect in this project for state transfer and for effects on any state updates.</h4>
 
 Steps: 
 1. install node if isn't present
