@@ -34,13 +34,17 @@ const Body = () => {
     const [filepath,setfilePath] = useState("not selected");
     const [seed,setSeed] = useState(" ");
     const [months, setMonths] = useState(0);
-    
+    const [count,setCount] = useState(0);
     const [resultRender, setResultRender] = useState(false)
     const [sentence,setSentence] = useState("Input fields [Months,Seed,(.csv) file] are empty.")
+    useEffect(()=>{
+      if(count>0){setResultRender(true);}
+    },[count])
     function captureDetails(){
-      setResultRender(false)
+      setResultRender(false)    
       function errorHandle()
       {
+        
         var empty_fields=(seed==" " && months==0)?(" seed,month aren't "):((seed==" ")?(" seed isn't "):(" month isn't "))
         var sentence1 = "Input"
         sentence1 = sentence1.concat(empty_fields).concat("given.")
@@ -50,11 +54,11 @@ const Body = () => {
       if(seed == " " || months == 0){
         errorHandle()
       }
-      else{setResultRender(true); } 
+      else{ setCount((count)=>{return count+1});}
     }
 
   return (<div className='m-1 '>
-    <div className='flex h-screen  bg-slate-400'>          {/* */}
+    <div className='flex h-screen bg-slate-400'>          {/* */}
         <div className='flex-none group basis-1/4  hover:border-white hover:border bg-slate-300 h-full '>     {/* */}
     
           <div className='flex h-full flex-col bg-logo p-4 mt-1 w-full  max-w-screen-xl shadow-lg shadow-slate-400 rounded-lg md:items-center  space-y-10 dark:bg-gray-800'>

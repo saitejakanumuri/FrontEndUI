@@ -8,7 +8,7 @@ const Result = (props) => {
     }, 5000);
 
     return () => {clearTimeout(timeout), setLoad(true)}// Clear timeout on unmount
-  }, [props.seedName,props.months]);
+  }, []);
   return (<div className="bg-white">
 
     {load ? (
