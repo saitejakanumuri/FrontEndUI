@@ -7,15 +7,15 @@ const Nav = () => {
   const word_app = ["A","P","P"]
     
   return (
-    <div className='m-1 border-2  w-[1519.2px] h-[100px] text-white  bg-[rgb(29,22,92)] relative'>
-        <div className="flex">
+    <div className='m-1 shadow-xl group shadow-slate-300 group  m-r-2  w-vwh h-[100px] bg-slate-400  rounded-lg'>
+        <div className="flex ">
             <div className="mt-5 ml-[100px]  h-full  flex-none">
-                <img src='./src/assets/innodatatics-white1.png' className='object-left h-[38px] w-[150px]' />
+                <img src='./src/assets/innodatatics-white1.png' className='object-left group-hover:scale-0 duration-700 h-[38px] w-[150px] bg-black' />
             </div>
-            <div className='flex-auto left-auto right-auto justify-center inline-flex ml-[100px] m:auto self-center mt-4'>
-             <div className='mr-3'> {word_spice.map((e)=>{return <div className='inline-block '><span className='text-4xl ' key={e}>{e}</span></div>})}</div> <div className='mr-3'> {word_price.map((e)=>{return <div className='inline-block'><span key={e} className='text-4xl '>{e}</span></div>})}</div><div className='mr-3'>{word_forecasting.map((e)=>{return <div className='inline-block'><span key={e} className='text-4xl  '>{e}</span></div>})}</div><div className="">{word_app.map((e)=>{return <div className='inline-block '><span className='text-4xl'>{e}</span></div>})}</div>
+            <div className='flex-auto left-auto group-hover:duration-700 font-black group-hover:text-[#1f1d1c] duration-1000 delay-500 text-slate-500 ease-in-out  right-auto justify-center inline-flex ml-[100px] m:auto group-hover:scale-150 self-center mt-4'>
+             <div className='mr-3 '> {word_spice.map((e)=>{return <div className='inline-block'><span className='text-4xl   duration-500' key={e}>{e}</span></div>})}</div> <div className='mr-3'> {word_price.map((e)=>{return <div className='inline-block duration-300 '><span key={e} className='text-4xl '>{e}</span></div>})}</div><div className='mr-3 duration-500 '>{word_forecasting.map((e)=>{return <div className='inline-block '><span key={e} className='text-4xl  '>{e}</span></div>})}</div><div className="mr-3 ">{word_app.map((e)=>{return <div className='inline-block  '><span className='text-4xl'>{e}</span></div>})}</div>
           </div>
-          <div className='flex-none  mr-[190px] pt-2 h-[10px] w-[100px]'><img className="" src='./src/assets/ruchi-new-logo-white.png'/></div>
+          <div className='flex-none  mr-[190px] pt-2 h-[10px] w-[100px] '><img className="group-hover:scale-0 duration-700" src='./src/assets/ruchi-new-logo-white.png'/></div>
     </div>
     </div>
   )

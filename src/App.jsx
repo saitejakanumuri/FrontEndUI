@@ -4,7 +4,7 @@ import Body from './components/Body';
 
 const App = () => {
   return (
-    <div className='h-screen w-screen overflow-x-hidden'>
+    <div className='h-screen w-screen  bg-slate-400  p-2 overflow-x-hidden'>
       <Nav/>
       <Body/>
       <Footer/> 
