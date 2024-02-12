@@ -1,7 +1,7 @@
 # React + Vite
 <h3>Designed a frontend UI for the spice price prediction project.</h3>
 <ol>
-<li> The result output video is present in ./src/assets/spicepriceprediction.mkv</li>
+<li> The result output video is present in <u>./src/assets/spicepriceprediction.mkv</u></li>
 <li> Used TailwindCSS and minor JS events functionalities like onclick, onchange, onsubmit, eventlistener ...</li>
 </ol>
 <h3><b>Learned:</b></h3>
